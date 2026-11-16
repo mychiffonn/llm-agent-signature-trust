@@ -1,0 +1,44 @@
+{
+ "kind": "packet",
+ "out": "results/packet_conf_haiku_adopt.jsonl",
+ "mock": false,
+ "seconds": 19,
+ "n_trials": 24,
+ "design_version": 3,
+ "formats": [
+  "P3"
+ ],
+ "packets": [
+  "none",
+  "sock3",
+  "forged"
+ ],
+ "coverage": [
+  1.0
+ ],
+ "seeds": 3,
+ "seed0": 2000,
+ "reliability": [
+  "stated",
+  "unstated"
+ ],
+ "signing": [
+  "puppets",
+  "none"
+ ],
+ "badge": true,
+ "realism": "natural",
+ "attribution_note": false,
+ "backend": "cli",
+ "model": "claude-haiku-5-5",
+ "effort": "low",
+ "temperature": null,
+ "calls": 27,
+ "cached": 0,
+ "errors": 0,
+ "refusals": 0,
+ "cost_usd": 0.02,
+ "input_tokens": 85866,
+ "output_tokens": 18580,
+ "providers": null
+}

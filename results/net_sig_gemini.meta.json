@@ -1,0 +1,53 @@
+{
+ "out": "results/net_sig_gemini.jsonl",
+ "mock": false,
+ "seconds": 684,
+ "n_sims": 24,
+ "design_version": 3,
+ "params": {
+  "rounds": 5,
+  "n_agents": 15,
+  "n_observers": 5,
+  "n_correct": 3,
+  "n_puppets": 3,
+  "puppet_degree": 2,
+  "n_insiders": 1,
+  "puppet_once": false,
+  "puppet_style": "llm",
+  "reflect": false,
+  "registry_coverage": 1.0,
+  "state_reliability": true,
+  "badge": true
+ },
+ "experiments": [
+  "P2",
+  "P3"
+ ],
+ "adversaries": [
+  "none",
+  "sockpuppet"
+ ],
+ "topologies": [
+  "small_world"
+ ],
+ "seeds": 3,
+ "signing": [
+  "all",
+  "puppets"
+ ],
+ "seed0": 2000,
+ "backend": "gemini",
+ "model": "gemini-3.8-flash",
+ "effort": "low",
+ "temperature": 0.7,
+ "providers": {
+  "?": 1972
+ },
+ "calls": 1971,
+ "cached": 397,
+ "errors": 0,
+ "refusals": 0,
+ "cost_usd": null,
+ "input_tokens": 5209908,
+ "output_tokens": 356956
+}

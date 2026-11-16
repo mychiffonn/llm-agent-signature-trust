@@ -1,0 +1,66 @@
+{
+ "kind": "packet",
+ "out": "results/packet_v3.jsonl",
+ "mock": false,
+ "seconds": 76,
+ "n_trials": 2160,
+ "design_version": 3,
+ "formats": [
+  "P0",
+  "P2U",
+  "P2",
+  "P2R",
+  "P3"
+ ],
+ "packets": [
+  "none",
+  "sock1",
+  "sock2",
+  "sock3",
+  "echo3",
+  "captured"
+ ],
+ "coverage": [
+  1.0,
+  0.6
+ ],
+ "seeds": 30,
+ "seed0": 1000,
+ "reliability": [
+  "stated",
+  "unstated"
+ ],
+ "backend": "openrouter",
+ "model": "deepseek/deepseek-v4.1-flash",
+ "effort": "low",
+ "temperature": 0.7,
+ "calls": 255,
+ "cached": 2617,
+ "errors": 0,
+ "refusals": 0,
+ "cost_usd": 0.169,
+ "input_tokens": 409253,
+ "output_tokens": 214764,
+ "providers": {
+  "Reka": 3,
+  "Wafer": 67,
+  "Crusoe": 5,
+  "CoreWeave": 29,
+  "Cohere": 31,
+  "AtlasCloud": 14,
+  "InferenceNet": 38,
+  "DeepInfra": 37,
+  "OpenInference": 11,
+  "Morph": 20,
+  "Novita": 1,
+  "Mancer 2": 1
+ },
+ "prior_runs": [
+  {
+   "calls": 2412,
+   "cost_usd": 2.528,
+   "errors": 196,
+   "note": "first pass (same command); 196 trials failed with HTTP 402 when the OpenRouter account ran out of credit and were filled by this re-run, all other calls cached"
+  }
+ ]
+}

@@ -1,0 +1,39 @@
+{
+ "kind": "packet",
+ "out": "results/packet_v3_haiku.jsonl",
+ "mock": false,
+ "seconds": 60,
+ "n_trials": 120,
+ "design_version": 3,
+ "formats": [
+  "P0",
+  "P2U",
+  "P2",
+  "P3"
+ ],
+ "packets": [
+  "none",
+  "sock3",
+  "captured"
+ ],
+ "coverage": [
+  1.0
+ ],
+ "seeds": 10,
+ "seed0": 1000,
+ "reliability": [
+  "stated"
+ ],
+ "backend": "cli",
+ "model": "claude-haiku-5-5",
+ "effort": "low",
+ "temperature": null,
+ "calls": 126,
+ "cached": 0,
+ "errors": 0,
+ "refusals": 0,
+ "cost_usd": 0.079,
+ "input_tokens": 314365,
+ "output_tokens": 65953,
+ "providers": null
+}

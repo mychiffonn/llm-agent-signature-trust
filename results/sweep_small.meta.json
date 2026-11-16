@@ -1,0 +1,16 @@
+{
+ "out": "results/sweep_small.jsonl",
+ "mock": false,
+ "seconds": 476,
+ "n_sims": 30,
+ "backend": "cli",
+ "model": "claude-haiku-5-5",
+ "effort": "low",
+ "calls": 2299,
+ "cached": 72,
+ "errors": 0,
+ "refusals": 0,
+ "cost_usd": 1.8139,
+ "input_tokens": 8437140,
+ "output_tokens": 1005911
+}

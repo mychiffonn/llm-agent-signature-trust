@@ -1,0 +1,49 @@
+{
+ "kind": "packet",
+ "out": "results/packet_sig_deepseek.jsonl",
+ "mock": false,
+ "seconds": 150,
+ "n_trials": 560,
+ "design_version": 3,
+ "formats": [
+  "P2",
+  "P2R"
+ ],
+ "packets": [
+  "none",
+  "sock1",
+  "sock3"
+ ],
+ "coverage": [
+  1.0
+ ],
+ "seeds": 10,
+ "seed0": 1000,
+ "reliability": [
+  "stated",
+  "unstated"
+ ],
+ "signing": [
+  "all",
+  "none",
+  "truth",
+  "false",
+  "puppets"
+ ],
+ "badge": true,
+ "realism": "natural",
+ "backend": "deepseek",
+ "model": "deepseek-flash",
+ "effort": "low",
+ "temperature": 0.7,
+ "calls": 560,
+ "cached": 0,
+ "errors": 0,
+ "refusals": 0,
+ "cost_usd": null,
+ "input_tokens": 707310,
+ "output_tokens": 488922,
+ "providers": {
+  "?": 562
+ }
+}

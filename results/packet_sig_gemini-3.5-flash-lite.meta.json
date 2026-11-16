@@ -1,0 +1,49 @@
+{
+ "kind": "packet",
+ "out": "results/packet_sig_gemini-3.5-flash-lite.jsonl",
+ "mock": false,
+ "seconds": 25,
+ "n_trials": 560,
+ "design_version": 3,
+ "formats": [
+  "P2",
+  "P2R"
+ ],
+ "packets": [
+  "none",
+  "sock1",
+  "sock3"
+ ],
+ "coverage": [
+  1.0
+ ],
+ "seeds": 10,
+ "seed0": 1000,
+ "reliability": [
+  "stated",
+  "unstated"
+ ],
+ "signing": [
+  "all",
+  "none",
+  "truth",
+  "false",
+  "puppets"
+ ],
+ "badge": true,
+ "realism": "natural",
+ "backend": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "effort": "low",
+ "temperature": 0.7,
+ "calls": 280,
+ "cached": 280,
+ "errors": 0,
+ "refusals": 0,
+ "cost_usd": null,
+ "input_tokens": 333499,
+ "output_tokens": 43907,
+ "providers": {
+  "?": 281
+ }
+}

@@ -1,0 +1,41 @@
+{
+ "kind": "packet",
+ "out": "results/packet_v3_gemini-3.8-flash.jsonl",
+ "mock": false,
+ "seconds": 63,
+ "n_trials": 120,
+ "design_version": 3,
+ "formats": [
+  "P0",
+  "P2U",
+  "P2",
+  "P3"
+ ],
+ "packets": [
+  "none",
+  "sock3",
+  "captured"
+ ],
+ "coverage": [
+  1.0
+ ],
+ "seeds": 10,
+ "seed0": 1000,
+ "reliability": [
+  "stated"
+ ],
+ "backend": "gemini",
+ "model": "gemini-3.8-flash",
+ "effort": "low",
+ "temperature": 0.7,
+ "calls": 150,
+ "cached": 0,
+ "errors": 0,
+ "refusals": 0,
+ "cost_usd": null,
+ "input_tokens": 168076,
+ "output_tokens": 28318,
+ "providers": {
+  "?": 151
+ }
+}
